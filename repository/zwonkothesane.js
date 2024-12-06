@@ -3,9 +3,10 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  SpONgE mOcK your name
-// @author       ArryKane
+// @author       aRRyKAnE
 // @match        game
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=koalabeast.com
+// @TPMUSJMURL	 https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/zwonkothesane.js
 // @grant        none
 // ==/UserScript==
 

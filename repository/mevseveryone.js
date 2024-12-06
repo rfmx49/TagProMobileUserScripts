@@ -7,6 +7,7 @@
 // @include         https://tagpro.koalabeast.com*
 // @updateURL       https://gist.github.com/nabbynz/043f92ab62d11ea3c6f4/raw/TagPro_Me_Vs_Everyone.user.js
 // @downloadURL     https://gist.github.com/nabbynz/043f92ab62d11ea3c6f4/raw/TagPro_Me_Vs_Everyone.user.js
+// @TPMUSJMURL	 	https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/mevseveryone.js
 // @match           all
 // @grant           GM_setValue
 // @grant           GM_getValue

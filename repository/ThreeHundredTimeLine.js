@@ -10,6 +10,7 @@
 // @grant           GM_addStyle
 // @updateURL       https://gist.github.com/nabbynz/23a54cace27ad097d671/raw/TagPro_Rolling300Timeline.user.js
 // @downloadURL     https://gist.github.com/nabbynz/23a54cace27ad097d671/raw/TagPro_Rolling300Timeline.user.js
+// @TPMUSJMURL	 https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/ThreeHundredTimeLine.js
 // @license         GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
 // @author          nabby
 // ==/UserScript==

@@ -5,6 +5,8 @@
 // @description  Pubs that suck less. It uses pub data extracted from the Game History. For every game, each player receives a rating, and this rating is used to determine the rankings. <a href="https://www.reddit.com/r/TagPro/comments/1abvaue/userscript_ranked_pubs/"> More Info</a>
 // @updateURL    https://gitlab.com/anom/tagpro-userscripts/-/raw/main/ranked-pubs.user.js
 // @downloadURL  https://gitlab.com/anom/tagpro-userscripts/-/raw/main/ranked-pubs.user.js
+// @TPMUSJMURL	 https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/ranked_pubs.user.js
+
 // @match        home, profile, boards, history
 // @author       anom
 // ==/UserScript==

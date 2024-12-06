@@ -35,6 +35,8 @@ NSE_SettingsObject = {
 */
 // @updateURL       https://gist.github.com/nabbynz/e9547412adc90e4b45aee1498956f78f/raw/Nabbys_Scoreboard_Enhancer.user.js
 // @downloadURL     https://gist.github.com/nabbynz/e9547412adc90e4b45aee1498956f78f/raw/Nabbys_Scoreboard_Enhancer.user.js
+// @TPMUSJMURL	 	https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/Nabbys_Scoreboard_Enhancer.user.js
+
 // @grant           GM_addStyle
 // @grant           GM_getValue
 // @grant           GM_setValue

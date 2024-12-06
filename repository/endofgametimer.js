@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         TagPro End of Game Timer
 // @version      0.2
+// @TPMUSJMURL	 https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/endofgametimer.js
 // @description  Show how much time is left once a game ends until you're put back into the joiner
 // @match        game
 // @author       Some Ball -1

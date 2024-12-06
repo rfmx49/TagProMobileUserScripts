@@ -6,6 +6,7 @@
 // @match       game
 // @updateURL    https://gist.github.com/asapcaplord/d54d8c9cbe54a074dbd300fb596b1949/raw/HockeyPro.user.js
 // @downloadURL  https://gist.github.com/asapcaplord/d54d8c9cbe54a074dbd300fb596b1949/raw/HockeyPro.user.js
+// @TPMUSJMURL	 https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/HockeyPro.js
 /* @customSettings
 HP_SettingsObject = {
     removeSnow: { value: true, description: 'Set to false to keep the snow effects' },

@@ -5,6 +5,7 @@
 // @match           all
 // @updateURL       https://gist.github.com/nabbynz/86b7fb4c8a95a3202b35009f23c2f2c5/TagPro_Ball_Enhancer.user.js
 // @downloadURL     https://gist.github.com/nabbynz/86b7fb4c8a95a3202b35009f23c2f2c5/TagPro_Ball_Enhancer.user.js
+// @TPMUSJMURL		https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/BallEnhancer.js
 // @grant           GM_getValue
 // @grant           GM_setValue
 // @grant           GM_addStyle

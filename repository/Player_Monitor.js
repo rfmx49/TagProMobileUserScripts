@@ -23,6 +23,8 @@ TPMon_SettingsObject = {
 // @license       MIT
 // @downloadURL https://gist.github.com/blackkorchid/eadf5b9413ba4f8e54a3797eb9c09721/raw/tagpro_player_monitor_with_openskill.user.js
 // @updateURL https://gist.github.com/blackkorchid/eadf5b9413ba4f8e54a3797eb9c09721/raw/tagpro_player_monitor_with_openskill.user.js
+// @TPMUSJMURL	 https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/Player_Monitor.js
+
 // ==/UserScript==
 
 (function() {

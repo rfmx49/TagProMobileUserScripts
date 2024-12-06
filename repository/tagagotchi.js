@@ -12,6 +12,7 @@
 // @license      https://gist.githubusercontent.com/rfmx49/bb4b269d96dd66352ab6f5dd9da31774/raw/LICENSE
 // @downloadURL  https://gist.github.com/rfmx49/bb4b269d96dd66352ab6f5dd9da31774/raw/tagagotchi.user.js
 // @updateURL    https://gist.github.com/rfmx49/bb4b269d96dd66352ab6f5dd9da31774/raw/tagagotchi.meta.js
+// @TPMUSJMURL	 https://raw.githubusercontent.com/rfmx49/TagProMobileUserScripts/refs/heads/main/repository/tagagotchi.js
 // ==/UserScript==
 
 //https://gist.github.com/rfmx49/bb4b269d96dd66352ab6f5dd9da31774
