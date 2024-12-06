@@ -1,0 +1,336 @@
+{
+    "userScripts":  [
+                        {
+                            "filename":  "300TimeLine",
+                            "name":  "Rolling 300 Timeline",
+                            "description":  "Shows your Rolling 300 Timeline \u0026 Streaks (using the official game data) on your chosen server homepage.",
+                            "version":  "2.0.10",
+                            "author":  "nabby",
+                            "match":  "all",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "BallEnhancer",
+                            "name":  "TagPro Ball Enhancer",
+                            "description":  "Enhances Balls.",
+                            "version":  "0.1.0",
+                            "author":  "nabby",
+                            "match":  "all",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "endofgametimer",
+                            "name":  "TagPro End of Game Timer",
+                            "description":  "Show how much time is left once a game ends until you\u0027re put back into the joiner",
+                            "version":  "0.2",
+                            "author":  "Some Ball -1",
+                            "match":  "game",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "HockeyPro",
+                            "name":  "HockeyPro",
+                            "description":  "Hockey 2023 Event QOL and visual updates",
+                            "version":  "0.1",
+                            "author":  "ASAP, Racgiman, MC Ride, Catalyst",
+                            "match":  "game",
+                            "customSettings":  {
+                                                   "variable":  "HP_SettingsObject",
+                                                   "settings":  {
+                                                                    "removeSnow":  {
+                                                                                       "value":  true,
+                                                                                       "description":  "Set to false to keep the snow effects"
+                                                                                   },
+                                                                    "lock_ball":  {
+                                                                                      "value":  true,
+                                                                                      "description":  "Lock the camera to your ball like in regular tagpro. In eggball, the camera is by default vertically locked to the field giving an out-of-ball sensation."
+                                                                                  },
+                                                                    "spec_only":  {
+                                                                                      "value":  false,
+                                                                                      "description":  "Set the value to false to expand viewport while playing. Set the value to true to expand only when spectating."
+                                                                                  },
+                                                                    "auto_zoom":  {
+                                                                                      "value":  true,
+                                                                                      "description":  "Set true/false to toggle auto-zoom level when spectating."
+                                                                                  },
+                                                                    "pp_egg":  {
+                                                                                   "value":  true,
+                                                                                   "description":  "Set the value to true to use a pixel perfect egg. Set to false to use the vanilla egg."
+                                                                               },
+                                                                    "egg_url":  {
+                                                                                    "value":  "https://i.imgur.com/AyhhO6i.png",
+                                                                                    "description":  "Set url of custom egg image, Only applies if pp_egg is true"
+                                                                                },
+                                                                    "egg_team_url":  {
+                                                                                         "value":  "https://i.imgur.com/hZbZT5z.png",
+                                                                                         "description":  "Set url of custom egg team indicator image (29x29). Only applies if pp_egg is true."
+                                                                                     },
+                                                                    "imp_map":  {
+                                                                                    "value":  true,
+                                                                                    "description":  "Set the value to true to use the custom, improved map. Set to false to use the vanilla map."
+                                                                                },
+                                                                    "field_url":  {
+                                                                                      "value":  "https://i.imgur.com/wPLx2dD.png",
+                                                                                      "description":  "Set url of custom field image. Only applies if imp_map is true."
+                                                                                  },
+                                                                    "highlight":  {
+                                                                                      "value":  true,
+                                                                                      "description":  "Set the value to true to highlight your ball"
+                                                                                  },
+                                                                    "highlight_url":  {
+                                                                                          "value":  "https://i.imgur.com/h23oRYI.png",
+                                                                                          "description":  "Set url of the highlight ring around your ball. Only applies if highlight is true."
+                                                                                      },
+                                                                    "pass_sound":  {
+                                                                                       "value":  true,
+                                                                                       "description":  "Set to true to have a passing sound play whenever anyone passes the egg."
+                                                                                   },
+                                                                    "score_difference":  {
+                                                                                             "value":  false,
+                                                                                             "description":  "Set to true to show your teams current score differential."
+                                                                                         }
+                                                                }
+                                               }
+                        },
+                        {
+                            "filename":  "map_previewer",
+                            "name":  "Map Previewer",
+                            "description":  "Shows a preview of the map pre-game.",
+                            "version":  "0.2.5",
+                            "author":  "nabby (some code based on \"Pre-Match Map Preview\" by happy)",
+                            "match":  "game",
+                            "customSettings":  {
+                                                   "variable":  "NMP_SettingsObject",
+                                                   "settings":  {
+                                                                    "enableZooming":  {
+                                                                                          "value":  true,
+                                                                                          "description":  "set to false to disable the pre-game zooming."
+                                                                                      },
+                                                                    "slowZoomOutAtEnd":  {
+                                                                                             "value":  true,
+                                                                                             "description":  "set to false to disable the post-game super-slow zooming out."
+                                                                                         },
+                                                                    "showReadyGo":  {
+                                                                                        "value":  true,
+                                                                                        "description":  "show a \"3-2-1-Go!\" message as game is starting."
+                                                                                    }
+                                                                }
+                                               }
+                        },
+                        {
+                            "filename":  "mevseveryone",
+                            "name":  "Me vs Everyone",
+                            "description":  "Shows my stats for both \"With \u0026 Against\" everyone I play with. Authenticated (green) players only.",
+                            "version":  "0.2.2",
+                            "author":  "nabby",
+                            "match":  "all",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "Nabbys_Scoreboard_Enhancer",
+                            "name":  "Nabby\u0027s Scoreboard Enhancer",
+                            "description":  "Adds multiple features and functionality to the game scoreboard",
+                            "version":  "1.2.0",
+                            "author":  "Some Ball -1, thevdude, nabby",
+                            "match":  "game",
+                            "customSettings":  {
+                                                   "variable":  "NSE_SettingsObject",
+                                                   "settings":  {
+                                                                    "onlyShowTeamStatsAtEOG":  {
+                                                                                                   "value":  true,
+                                                                                                   "description":  "if false Team Stats will update and show whenever the scoreboard is open"
+                                                                                               },
+                                                                    "useMinimumPopsAndDrops":  {
+                                                                                                   "value":  true,
+                                                                                                   "description":  "highlight the *lowest* values for Pops \u0026 Drops (only applies to Team Stats)"
+                                                                                               },
+                                                                    "showMyScoreboardPositions":  {
+                                                                                                      "value":  true,
+                                                                                                      "description":  "show My Scoreboard Positions on the scoreboard during the match"
+                                                                                                  },
+                                                                    "showOverallPicture":  {
+                                                                                               "value":  true,
+                                                                                               "description":  "show Overall Picture on the scoreboard during the match"
+                                                                                           },
+                                                                    "showTripleDoubles":  {
+                                                                                              "value":  true,
+                                                                                              "description":  "highlight players who get a Triple Double at the end of the game"
+                                                                                          },
+                                                                    "showHatricks":  {
+                                                                                         "value":  true,
+                                                                                         "description":  "highlight players who get a Hatrick at the end of the game (3+ Caps)"
+                                                                                     },
+                                                                    "showComeback":  {
+                                                                                         "value":  true,
+                                                                                         "description":  "show a Comeback! message at the end of the game if it was a come-from-behind win."
+                                                                                     },
+                                                                    "showCapsTimeline":  {
+                                                                                             "value":  true,
+                                                                                             "description":  "show a timeline of the caps at the end of the game"
+                                                                                         },
+                                                                    "showDegrees":  {
+                                                                                        "value":  true,
+                                                                                        "description":  "show player degrees next to their name (when they have stats on)"
+                                                                                    },
+                                                                    "showtimePlayed":  {
+                                                                                           "value":  true,
+                                                                                           "description":  "show player time next to their name (only if we played the whole game)"
+                                                                                       },
+                                                                    "showBuddyWins":  {
+                                                                                          "value":  false,
+                                                                                          "description":  "show wins when playing With and Against other players [default: false]"
+                                                                                      },
+                                                                    "buddyWinsAuthOnly":  {
+                                                                                              "value":  false,
+                                                                                              "description":  "only show for authenticated (green name) players [default: false]"
+                                                                                          },
+                                                                    "buddyWinsIgnoreSomeBalls":  {
+                                                                                                     "value":  true,
+                                                                                                     "description":  "ignore Some Balls [default: true]"
+                                                                                                 },
+                                                                    "buddyWinsMinimumGameTime":  {
+                                                                                                     "value":  20,
+                                                                                                     "description":  "minimum game time % before that player\"s data will save [default: 20]"
+                                                                                                 },
+                                                                    "buddyWinsMinimumGames":  {
+                                                                                                  "value":  1,
+                                                                                                  "description":  "number of games before the win % will show (0 for all) [default: 1]"
+                                                                                              },
+                                                                    "showKD":  {
+                                                                                   "value":  true,
+                                                                                   "description":  "replaces the Rank Pts column with K/D (only updated when the scoreboard is open)"
+                                                                               },
+                                                                    "showHG":  {
+                                                                                   "value":  true,
+                                                                                   "description":  "replaces the Report column with Hold/Grab (only updated when the scoreboard is open)"
+                                                                               },
+                                                                    "onlyShowKDatEOG":  {
+                                                                                            "value":  true,
+                                                                                            "description":  "only show the K/D column at the End of Game (and only if showKD is true)"
+                                                                                        },
+                                                                    "onlyShowHGatEOG":  {
+                                                                                            "value":  true,
+                                                                                            "description":  "only show the H/G column at the End of Game (and only if showHG is true)"
+                                                                                        },
+                                                                    "redTeamColor":  {
+                                                                                         "value":  "rgba(255, 0, 0, .35)",
+                                                                                         "description":  "default \"rgba(255, 0, 0, .35)\""
+                                                                                     },
+                                                                    "blueTeamColor":  {
+                                                                                          "value":  "rgba(20, 50, 200, .50)",
+                                                                                          "description":  "default \"rgba(20, 50, 200, .50)\""
+                                                                                      },
+                                                                    "scoreboardWidth":  {
+                                                                                            "value":  920,
+                                                                                            "description":  "game default is 860"
+                                                                                        }
+                                                                }
+                                               }
+                        },
+                        {
+                            "filename":  "Player_Monitor",
+                            "name":  "TagPro Player Monitor with OpenSkill",
+                            "description":  "Shows an on-screen list of players in the game and their current status",
+                            "version":  "4.10",
+                            "author":  "bash#, Ko, Maelstrom, black orchid",
+                            "match":  "game",
+                            "customSettings":  {
+                                                   "variable":  "TPMon_SettingsObject",
+                                                   "settings":  {
+                                                                    "hide_flagTaken":  {
+                                                                                           "value":  true,
+                                                                                           "description":  "Hide the default taken flag indicators"
+                                                                                       },
+                                                                    "hide_playerIndicators":  {
+                                                                                                  "value":  true,
+                                                                                                  "description":  "Hide the default team count indicators"
+                                                                                              },
+                                                                    "position":  {
+                                                                                     "value":  "bot-mid",
+                                                                                     "description":  "The position preset: top-left, top-mid, top-right, mid-left, mid-right, bot-left, bot-mid, bot-right,top-split, mid-split, bot-split"
+                                                                                 },
+                                                                    "order":  {
+                                                                                  "value":  "constant",
+                                                                                  "description":  "Sorting order of the players: constant, alphabetic, score, skill"
+                                                                              },
+                                                                    "show_hold":  {
+                                                                                      "value":  false,
+                                                                                      "description":  "Show a timer that counts how long the FC has been holding"
+                                                                                  }
+                                                                }
+                                               }
+                        },
+                        {
+                            "filename":  "presetmod",
+                            "name":  "Preset Texture Mods",
+                            "description":  "Apply preset mods to your texture pack.",
+                            "version":  "0.0.15",
+                            "author":  "nabby",
+                            "match":  "game, textures",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "ranked-pubs",
+                            "name":  "Ranked Pubs",
+                            "description":  "Pubs that suck less. It uses pub data extracted from the Game History. For every game, each player receives a rating, and this rating is used to determine the rankings. \u003ca href=\"https://www.reddit.com/r/TagPro/comments/1abvaue/userscript_ranked_pubs/\"\u003e More Info\u003c/a\u003e",
+                            "version":  "1.7.0",
+                            "author":  "anom",
+                            "match":  "home, profile, boards, history",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "RespawnPizza",
+                            "name":  "Respawn Pizzas (Replays Edition)",
+                            "description":  "Replace Respawn Warnings by a \"growing pizza animation\" to know exactly when the respawn happens!",
+                            "version":  "2.1.3",
+                            "author":  "Ko (modified by nabby)",
+                            "match":  "game",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "starsFTW",
+                            "name":  "Stars FTW",
+                            "description":  "Shows lots of colorful stars when you win a game",
+                            "version":  "1.2.0",
+                            "author":  "nabby",
+                            "match":  "game",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "tagagotchi",
+                            "name":  "Tagagotchi",
+                            "description":  "Your very own tagpro inspired virtual pet",
+                            "version":  "0.5.21",
+                            "author":  "ArryKane",
+                            "match":  "all",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "timersTest",
+                            "name":  "Timers w/ Previews",
+                            "description":  "A timer script to be used with TagPro. All boosts, bombs, powerups, and player respawns will have a countdown.",
+                            "version":  "0.4.2",
+                            "author":  "Some Ball -1 modified by Niplepotamus and Logicus",
+                            "match":  "game",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "transparentBackground",
+                            "name":  "Transparent Background",
+                            "description":  "Removes black background from game view, also allows you to set custom background image.",
+                            "version":  "",
+                            "author":  "NewCompte, Catalyst",
+                            "match":  "game",
+                            "customSettings":  null
+                        },
+                        {
+                            "filename":  "z-wonkothesane",
+                            "name":  "Sponge Mock Name",
+                            "description":  "SpONgE mOcK your name",
+                            "version":  "0.1",
+                            "author":  "ArryKane",
+                            "match":  "game",
+                            "customSettings":  null
+                        }
+                    ]
+}
