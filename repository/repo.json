@@ -243,18 +243,6 @@
                             "customSettings":  null
                         },
                         {
-                            "filename":  "repo",
-                            "name":  "",
-                            "description":  "",
-                            "version":  "",
-                            "author":  "",
-                            "match":  {
-
-                                      },
-                            "url":  "",
-                            "customSettings":  null
-                        },
-                        {
                             "filename":  "starsFTW",
                             "name":  "Stars FTW",
                             "description":  "Shows lots of colorful stars when you win a game",
