@@ -1,0 +1,44 @@
+var userScriptKey = "GM_TPMon";
+
+  function GM_setValue(key, value) {
+      key = userScriptKey + key;
+      localStorage.setItem(key, JSON.stringify(value));
+  }
+
+  function GM_getValue(key, defaultVal) {
+      key = userScriptKey + key;
+      let savedValue = localStorage.getItem(key);
+      if (savedValue == null) {
+          savedValue = defaultVal;
+      } else {
+          savedValue = JSON.parse(savedValue);
+      }
+      return savedValue;
+  }
+
+  function GM_deleteValue(key) {
+      key = userScriptKey + key;
+      localStorage.removeItem(key);
+  }
+
+  function GM_addStyle(css) {
+      var head, style;
+      head = document.getElementsByTagName('head')[0];
+      if (!head) { return; }
+      style = document.createElement('style');
+      style.type = 'text/css';
+      style.innerHTML = css.replace(/;/g, ' !important;');
+      head.appendChild(style);
+  }
+var GM_info = {
+  script: {
+    name: "Rolling 300 Timeline",
+    version: "4.10",
+    author: "bash#, Ko, Maelstrom, black orchid"
+  }
+}
+
+var short_name = 'monitor';            // An alphabetic (no spaces/numbers) distinctive name for the script.
+  var version = GM_info.script.version;  // The version number is automatically fetched from the metadata.
+  tagpro.ready(function(){ if (!tagpro.scripts) tagpro.scripts = {}; tagpro.scripts[short_name]={version:version};});
+  console.log('START: ' + GM_info.script.name + ' (v' + version + ' by ' + GM_info.script.author + ')');
