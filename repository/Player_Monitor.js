@@ -15,8 +15,8 @@
 TPMon_SettingsObject = {
     hide_flagTaken: { value: true, description: 'Hide the default taken flag indicators' },
     hide_playerIndicators: { value: true, description: 'Hide the default team count indicators' },
-    position: { value: 'bot-mid', description: 'The position preset: top-left, top-mid, top-right, mid-left, mid-right, bot-left, bot-mid, bot-right,top-split, mid-split, bot-split'},
-    order: { value: 'constant', description: 'Sorting order of the players: constant, alphabetic, score, skill' },
+    position: { value: ['top-left', 'top-mid', 'top-right', 'mid-left', 'mid-right', 'bot-left', 'bot-mid', 'bot-right', 'top-split', 'mid-split', 'bot-split'], description: 'The position preset'},
+    order: { value: ['constant', 'alphabetic', 'score', 'skill'], description: 'Sorting order of the players' },
     show_hold: { value: false, description: 'Show a timer that counts how long the FC has been holding' }
 }
 */
